@@ -16,4 +16,9 @@ Key Features:
     - Ensures that only valid tokens can access the API, adding an extra layer of security to prevent unauthorized access.
 
 - This project demonstrates how to integrate JWT authentication in a microservice architecture, providing a secure way to manage and control API access.
-- It also features a dashboard for Admin users to perform sentiment analysis and filter news based on different news channels providing the analysis based on positivity and negativity of the news providing a clear and user-friendly interface. 
+- It also features a dashboard for Admin users to perform sentiment analysis and filter news based on different news channels providing the analysis based on positivity and negativity of the news providing a clear and user-friendly interface.
+
+## NewsNexus Website
+### Login page  
+
+![login page](https://github.com/user-attachments/assets/dae03b78-4c76-4c6f-8a28-41491c4ca328)
