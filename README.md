@@ -5,7 +5,7 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 
 ![Project Architecture](https://github.com/user-attachments/assets/165c1ad5-f253-46d1-a763-b2512affcd2a)
 
-Key Features:
+### Key Features:
 - JWT-based Authentication: Users log in with a username and password to obtain a JWT, which is then used to access protected endpoints.
 - Role-based Access Control (RBAC): Depending on the user's role (Admin, Premium User, or Regular User), the API Gateway routes requests to different endpoints: /news/admin, /news/premium and /news/user.
 
