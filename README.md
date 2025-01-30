@@ -1,7 +1,9 @@
 # NewsNexus
 ## API Gateway with JWT Authentication
 
-This project implements an API Gateway that uses JSON Web Tokens (JWT) for secure authentication and role-based access control. The gateway acts as a centralized entry point for multiple APIs, ensuring that only authenticated and authorized users can access specific resources.
+This project implements an API Gateway that uses JSON Web Tokens (JWT) for secure authentication and role-based access control. The gateway acts as a centralized entry point for multiple APIs, ensuring that only authenticated and authorized users can access specific resources.  
+
+![Project Architecture](https://github.com/user-attachments/assets/165c1ad5-f253-46d1-a763-b2512affcd2a)
 
 Key Features:
 - JWT-based Authentication: Users log in with a username and password to obtain a JWT, which is then used to access protected endpoints.
