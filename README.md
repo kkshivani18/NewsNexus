@@ -33,5 +33,17 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 
 ### Premium User News Dashboard
 
-![premium user dashboard](https://github.com/user-attachments/assets/63f45b88-ff16-4440-a508-ebc578df1871)
+![premium user dashboard](https://github.com/user-attachments/assets/63f45b88-ff16-4440-a508-ebc578df1871)  
+- Premium user has feature of searching about Politicians about their Constituency work and their criminal records.
+
+![Constituency work](https://github.com/user-attachments/assets/ed508de9-b85f-48af-b8e5-d7aec5dd1f09)  
+
+![criminal records](https://github.com/user-attachments/assets/00f0bb78-6da7-4540-b572-51cc2f2c3d6e)  
+
+### General user news Dashboard  
+
+![general user dashboard](https://github.com/user-attachments/assets/5c9f8675-873c-4237-8b55-d83e9620c651)
+
+
+
 
