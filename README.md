@@ -36,10 +36,14 @@ own user management and platform settings.
 ![admin news page](https://github.com/user-attachments/assets/b42e3663-34a1-4d35-9780-0e8c6a9a82a6)  
 
 ### Admin News Statistics
+- It provides statistics about news and its news channels displaying the sentiment analysis of the news published.  
 
 ![admin news page](https://github.com/user-attachments/assets/e9f3eb0c-4364-4ec5-bd87-a175ddff6473)
 
 ### Premium User News Dashboard
+- Privileged User: Entitled to get access to restricted and sensitive functionalities
+wherein high-level configurations and secure data are allowed for management
+purposes.  
 
 ![premium user dashboard](https://github.com/user-attachments/assets/63f45b88-ff16-4440-a508-ebc578df1871)  
 - Premium user has feature of searching about Politicians about their Constituency work and their criminal records.
