@@ -21,4 +21,13 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 ## NewsNexus Website
 ### Login page  
 
-![login page](https://github.com/user-attachments/assets/dae03b78-4c76-4c6f-8a28-41491c4ca328)
+![login page](https://github.com/user-attachments/assets/dae03b78-4c76-4c6f-8a28-41491c4ca328)  
+
+### Admin News Dashboard  
+
+![admin news page](https://github.com/user-attachments/assets/b42e3663-34a1-4d35-9780-0e8c6a9a82a6)  
+
+### Admin News Statistics
+
+![admin news page](https://github.com/user-attachments/assets/e9f3eb0c-4364-4ec5-bd87-a175ddff6473)
+
