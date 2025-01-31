@@ -18,12 +18,20 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 - This project demonstrates how to integrate JWT authentication in a microservice architecture, providing a secure way to manage and control API access.
 - It also features a dashboard for Admin users to perform sentiment analysis and filter news based on different news channels providing the analysis based on positivity and negativity of the news providing a clear and user-friendly interface.
 
+### Tech Stack
+Java Spring Boot Security: Backend development with Java for JWT Authentication.  
+Streamlit: Python for frontend development.  
+Postman: For testing API endpoints.
+Database: MySQL  
+
 ## NewsNexus Website
 ### Login page  
 
 ![login page](https://github.com/user-attachments/assets/dae03b78-4c76-4c6f-8a28-41491c4ca328)  
 
 ### Admin News Dashboard  
+- Admin User: Possesses the right to get access to management features including their
+own user management and platform settings.  
 
 ![admin news page](https://github.com/user-attachments/assets/b42e3663-34a1-4d35-9780-0e8c6a9a82a6)  
 
