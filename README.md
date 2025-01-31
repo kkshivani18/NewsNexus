@@ -53,6 +53,7 @@ purposes.
 ![criminal records](https://github.com/user-attachments/assets/00f0bb78-6da7-4540-b572-51cc2f2c3d6e)  
 
 ### General user news Dashboard  
+- General User: Just entitled to the basics functionalities and public resources.
 
 ![general user dashboard](https://github.com/user-attachments/assets/5c9f8675-873c-4237-8b55-d83e9620c651)
 
