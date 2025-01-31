@@ -31,3 +31,7 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 
 ![admin news page](https://github.com/user-attachments/assets/e9f3eb0c-4364-4ec5-bd87-a175ddff6473)
 
+### Premium User News Dashboard
+
+![premium user dashboard](https://github.com/user-attachments/assets/63f45b88-ff16-4440-a508-ebc578df1871)
+
