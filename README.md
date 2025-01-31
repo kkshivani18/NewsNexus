@@ -7,7 +7,7 @@ This project implements an API Gateway that uses JSON Web Tokens (JWT) for secur
 
 ### Key Features:
 - JWT-based Authentication: Users log in with a username and password to obtain a JWT, which is then used to access protected endpoints.
-- Role-based Access Control (RBAC): Depending on the user's role (Admin, Premium User, or Regular User), the API Gateway routes requests to different endpoints: /news/admin, /news/premium and /news/user.
+- Role-based Access Control (RBAC): Depending on the user's role (Admin, Premium User or Regular User), the API Gateway routes requests to different endpoints: /news/admin, /news/premium and /news/user.
 
 - Frontend:
     - Built using Streamlit, the frontend provides a login page where users authenticate, and based on their role, they can access and view relevant news content retrieved via API calls.
@@ -55,8 +55,22 @@ purposes.
 ### General user news Dashboard  
 - General User: Just entitled to the basics functionalities and public resources.
 
-![general user dashboard](https://github.com/user-attachments/assets/5c9f8675-873c-4237-8b55-d83e9620c651)
+![general user dashboard](https://github.com/user-attachments/assets/5c9f8675-873c-4237-8b55-d83e9620c651)  
 
+**The project introduces the following contributions:**  
 
-
-
+- *Dynamic Role-Based Access Control:* The system grants or restricts access to
+resources dynamically using the JWT tokens, it decodes them at gateway level based
+on a user's role.
+- *Centralized Security Management:* The gateway API acts as a point of control and
+prevents unauthorized access. In addition, its central location limits exposure to the
+sensitive resource.
+- *Token Expiration and Refresh Mechanism:* The risk arising from replay attacks
+and token compromise will be completely avoided by using short-lived JWTs and
+refresh tokens.  
+- *Scalable and Stateless Architecture:* It will utilize stateless JWT authentication,
+ensuring that the system scales properly without any session data related to users
+being maintained on server-side.
+- *Custom Gateway Policies:* Role-specific policies will be enforced at the API
+gateway level that ensures fine-grained control over the availability of the system
+resources as well as minimizes the attack surfaces.  
