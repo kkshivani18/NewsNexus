@@ -1,0 +1,40 @@
+services:
+  backend:
+    image: maven:3.9.6-eclipse-temurin-17
+    working_dir: /app
+    volumes:
+      - ./web_912/web_912/web/web:/app
+      - maven-repo:/root/.m2
+    command: mvn -B spring-boot:run
+    ports:
+      - "${SERVER_PORT}:${SERVER_PORT}"
+    environment:
+      - SERVER_PORT=${SERVER_PORT}
+      - SPRING_DATASOURCE_URL=${SPRING_DATASOURCE_URL}
+      - SPRING_DATASOURCE_USERNAME=${SPRING_DATASOURCE_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
+    networks:
+      - app-network
+    container_name: backend
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    environment:
+      - LOGIN_URL=${LOGIN_URL}
+      - NEWS_API_ADMIN_URL=${NEWS_API_ADMIN_URL}
+      - NEWS_API_PREM_URL=${NEWS_API_PREM_URL}
+      - NEWS_API_USER_URL=${NEWS_API_USER_URL}
+      - SECRET_KEY=${SECRET_KEY}
+    networks:
+      - app-network
+    container_name: frontend
+
+networks:
+  app-network:
+    driver: bridge
+volumes:
+  maven-repo:
